@@ -31,12 +31,14 @@ y=[0,902,19.6,17.8,17.3,11.7]
 
 tblrow=[]
 rows, cols=5,5
-for i in range(rows):
-    col = []
-    for j in range(cols):
-        col.append(0)
-    tblrow.append(col)
 
+tblrow = [ [0 for i in range(cols)] for j in range(rows)]
+
+# for i in range(len(tblrow)):
+#     for j in range(len(tblrow[i])):
+#         tblrow[]
+
+tblrow[1][3]=5
 
 for i in tblrow:
     for j in i:
