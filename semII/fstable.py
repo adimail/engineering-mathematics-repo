@@ -5,6 +5,8 @@ def r2d(num):
 
 x=[0, 30, 60, 90, 120, 150]
 #x=[0, 60, 120, 240, 300]
+
+x = list(map(float, input().split()))
 y = list(map(float, input().split()))
 
 tblrow=[]
