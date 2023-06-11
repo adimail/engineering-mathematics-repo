@@ -92,6 +92,7 @@ def print_summations(tbl):
 
     current_colum=3
     coefficient_list=list(map(lambda x:round(x*2/6,2),sum_list))
+    
     print("\n")
     print("Coefficinets :")
     print("a0   = ",coefficient_list[1])
